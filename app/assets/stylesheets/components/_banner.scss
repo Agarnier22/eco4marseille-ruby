@@ -1,0 +1,80 @@
+// THE MAIN CONTAINER 
+.main{
+    width: 100%;
+    height: auto;
+}
+// THE MAIN CONTAINER 
+// Banner section with background
+.container-section{
+    // border: 1px solid red;
+    height: 500px;
+    width: 100%;
+    background-image: asset-url("image1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: -300px;
+}
+// Banner section with background
+// Main text of the banner
+.section{
+    padding: 10px;
+    padding-left: 30px;
+    position: relative;
+    // border: 1px solid red;
+    width: 50%;
+    height: 80%;
+    background-color: rgba(255, 255, 255, 0.347);
+    border-radius: 5px;
+    h1{
+        color: white;
+        font-size: 70px;
+        text-shadow: 1px 1px 2px rgb(0, 0, 0);
+        line-height: 70px;
+    }
+ .btn-cont{
+    width: 100%;
+     margin-top: 60px;
+ }
+    .btn-more{
+        padding: 15px;
+        margin-left: 400px;
+        font-size: 30px;
+        color: #2f5a6d;
+        background-color:#99c5c3;
+        border: 1px solid rgb(0, 251, 255);
+        border-radius: 10px;
+        box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.51);
+        mix-blend-mode:multiply;
+        font-family: "Anton";
+    }
+    .btn-more:hover{
+        background-color: #5eaba7;
+        cursor: pointer;
+        color: blanchedalmond;
+    }
+    p{
+        margin-top: 20px;
+        color: white;
+        width: 400px;
+        text-shadow: 1px 1px 2px rgb(0, 0, 0);
+        strong{
+            background-color: rgb(79, 112, 142);
+            font-size: 25px;
+            text-shadow: 1px 1px 2px rgb(0, 0, 0);
+        }
+    }
+}
+// Main text of the banner
+// Container of main text
+.container{
+    height: 100%;
+    width: 80vw;
+    // border: 1px solid red;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    
+}
+// Container of main text
